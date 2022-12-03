@@ -1,0 +1,35 @@
+PODS:
+  - Birch (1.0.0)
+  - BirchXCGLogger (1.0.0):
+    - Birch
+    - XCGLogger
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - BirchXCGLogger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Birch
+    - ObjcExceptionBridging
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  BirchXCGLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Birch: 5d940488381029bf174a1dc0f929dca43e2f1739
+  BirchXCGLogger: d46d675fcb6da6bc8b99690f718729289d8c0818
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+
+PODFILE CHECKSUM: 9fb07e970e4243b948510b895dd02b549034780b
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module BirchXCGLogger {
+  umbrella header "BirchXCGLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

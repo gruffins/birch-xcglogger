@@ -1,0 +1,6 @@
+framework module Pods_BirchXCGLogger_Example {
+  umbrella header "Pods-BirchXCGLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

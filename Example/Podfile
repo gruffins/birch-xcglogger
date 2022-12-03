@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BirchXCGLogger_Example' do
+  pod 'BirchXCGLogger', :path => '../'
+
+  target 'BirchXCGLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
