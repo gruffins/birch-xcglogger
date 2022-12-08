@@ -10,11 +10,11 @@ let package = Package(
             targets: ["BirchXCGLogger"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/gruffins/birch-ios.git", from: "1.0.0"),
+        .package(url: "https://github.com/gruffins/birch-ios.git", from: "1.1.1"),
     ],
     targets: [
         .target(
             name: "BirchXCGLogger",
-            dependencies: ["Birch"]),
+            dependencies: ["birch-ios"]),
     ]
 )
