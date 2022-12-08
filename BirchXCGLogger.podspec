@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BirchXCGLogger'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'XCGLogger wrapper for Birch.'
   s.homepage = 'https://github.com/gruffins/birch-xcglogger'
   s.license = { type: 'MIT', file: 'LICENSE' }
