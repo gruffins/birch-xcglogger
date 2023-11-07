@@ -1,6 +1,6 @@
 PODS:
   - Birch (1.4.0)
-  - BirchXCGLogger (1.1.0):
+  - BirchXCGLogger (1.2.0):
     - Birch
     - XCGLogger
   - ObjcExceptionBridging (1.0.1):
@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Birch: f9403f7ef86edb088876af7af2ba32c6db959e21
-  BirchXCGLogger: 021b8bee2e41ba9819296ed82a9fa6e5bbfe126b
+  BirchXCGLogger: 77e12a94d7e7551192462390098b255018a3e930
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: f320c817d66ce78c9338bddb88971787e034856a
+PODFILE CHECKSUM: 4d142904e02908738c249e4b2824ed02c1b1d0f0
 
 COCOAPODS: 1.11.3
